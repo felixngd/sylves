@@ -162,7 +162,7 @@ def build_upm_release():
     shutil.copy("LICENSE.txt", UPM_DIR + "LICENSE.md")
     shutil.copy("docs/articles/release_notes.md", UPM_DIR + "CHANGELOG.md")
     shutil.rmtree(UPM_DIR + "Documentation~/", ignore_errors=True)
-    shutil.copytree("docs/_site/", UPM_DIR + "Documentation~/")
+    #shutil.copytree("docs/_site/", UPM_DIR + "Documentation~/")
 
     # Change readme references
     readme = open("README.md", "r").read()
