@@ -6,7 +6,7 @@ import shutil
 import re
 from typing import List, IO, Tuple
 
-UPM_DIR="upm/"
+UPM_DIR="sylves/Unity/Sylves/Assets/Sylves/"
 
 KEEP="KEEP"
 
